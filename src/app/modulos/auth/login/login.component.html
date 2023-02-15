@@ -1,0 +1,37 @@
+<div class="container">
+    <div class="card">
+        <div class="card-body">
+
+            <form>
+
+                <h5 class="text-center">Inicio de Sessión</h5>
+                <hr>
+                <div class="row">
+                    <div class="mb-3">
+                        <label class="form-label">Usuario</label>
+                        <input class="form-control" type="text" name="Correo" [(ngModel)]="login.Correo">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Contraseña</label>
+                        <input class="form-control" type="password" name="Correo" [(ngModel)]="login.Clave">
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="text-end">
+                    <button type="button" class="btn btn-primary" (click)="eventoIngresar()">Ingresar</button>
+                    <button type="button" class="btn btn-primary" (click)="eventoRegistar()">Registrarme</button>
+    
+                </div>
+              
+            </form>
+
+
+        </div>
+
+
+    </div>
+
+</div>
